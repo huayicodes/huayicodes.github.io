@@ -1,13 +1,55 @@
----
-title: Huayi
-layout: default
----
-<div class="post-list">
-    {% for post in site.posts %}
+<!DOCTYPE html>
+<html lang="en">
     
-        <a class="post-title" href="{{site.baseurl}}{{post.url}}"><h2>{{ post.title }}</h2></a>
-        <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{post.excerpt | strip_html}}</p>
+
+<body style="background-color: black;">
+<nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" style="font-size: 24px; color: #fff;" href="/"><strong>Huayi Wei, Ph.D.</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" style="color: #FE4EFE;" href="/"><strong>HOME</strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: #fff;" href="bitcoin_greykite.html"><strong>PROJECTS</strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: #fff;" href="placeholder.html"><strong>placeholder</strong></a>
+                    </li>
+                    <!--<li class="nav-item">
+                      <a class="nav-link" style="color: #fff;" href="placeholder.html"><strong>ACTIVITES</strong></a>
+                    </li>-->
+                  </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="full-width-div text-center" style="background-color: black;"><img style="background-color: black;" width="40%" src="/_images/placeholder.png"></div>
     
-    {% endfor %}
-</div>
+    <div class="container bg-black pt-4">
+            <h1 class="text-center">Welcome!</h1>
+        <p class="pt-2"></p>
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-unstyled">
+                    <li class="bio"><img src="/_images/about-me.png" width="100%" style="max-width: 150px;"> </li>
+                    <li><p></p></li>
+                    <li class="bio">huayicodes [at] gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                I am a Data Scientist at Tapestry Inc <a href="http://www.nagellab.com/" class="text-primary"> </a>. 
+            </div>  
+        </div>
+    </div>
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
